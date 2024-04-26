@@ -1256,3 +1256,152 @@
 
 
 
+2024-04-25 14:20:11,729 Test very large-small ran with response time 0.05s, CPU: 0.0%, Memory: 87.7%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:20:24,090 Test very large-small ran with response time 0.03s, CPU: 0.0%, Memory: 87.6%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:21:36,525 Test very large-small ran with response time 0.03s, CPU: 0.0%, Memory: 88.1%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:21:41,613 Test very large-small ran with response time 0.03s, CPU: 0.0%, Memory: 88.1%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:22:14,565 Test very large-small ran with response time 0.03s, CPU: 0.0%, Memory: 87.8%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:23:02,059 Test very large-small ran with response time 0.03s, CPU: 0.0%, Memory: 87.7%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:23:41,325 Test very large-small ran with response time 0.03s, CPU: 0.0%, Memory: 87.8%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:24:51,087 Test very large-small ran with response time 0.03s, CPU: 0.0%, Memory: 88.1%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:24:51,191 Test very large-small ran with response time 0.02s, CPU: 0.0%, Memory: 88.2%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:24:51,295 Test very large-small ran with response time 0.02s, CPU: 0.0%, Memory: 88.2%, Response: {"error":"<LM Studio error> Context length exceeded. Total conversation length: (2815) > Context length: (2048). Suggestion: Increase the context length, or choose a Context Overflow Policy to avoid this error. Error Data: n/a, Additional Data: n/a"}
+2024-04-25 14:42:57,250 Test very large-small ran with response time 890.50s, CPU: 52.12755823386256%, Memory: 94.37146830455441%, Response: {
+  "id": "chatcmpl-trolc0y9aqb3q46ho9gzht",
+  "object": "chat.completion",
+  "created": 1714077001,
+  "model": "C:\\Users\\ernes\\.cache\\lm-studio\\models\\TheBloke\\vicuna-13B-v1.5-16K-GGUF\\vicuna-13b-v1.5-16k.Q4_0.gguf",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The passage describes a quarrel between Agamemnon and Achilles, two of the most prominent characters in the Trojan War. The argument started when Agamemnon dishonored Chryses, a priest who came to him to free his daughter, and refused to pay the ransom he"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 63,
+    "total_tokens": 126
+  }
+}
+2024-04-25 14:43:31,735 Test very large-small ran with response time 34.38s, CPU: 56.79096385542168%, Memory: 89.80873493975903%, Response: {
+  "id": "chatcmpl-cv1kyj0rfdon7fx61ijkw",
+  "object": "chat.completion",
+  "created": 1714077777,
+  "model": "C:\\Users\\ernes\\.cache\\lm-studio\\models\\TheBloke\\vicuna-13B-v1.5-16K-GGUF\\vicuna-13b-v1.5-16k.Q4_0.gguf",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Agamemnon and Achilles had a quarrel that caused countless ills upon the Achaeans. The cause of their quarrel was the dishonouring of Chryses by Agamemnon. This led to Apollo becoming angry with the Achaeans, sending a pest"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 63,
+    "total_tokens": 127
+  }
+}
+2024-04-25 14:44:06,340 Test very large-small ran with response time 34.55s, CPU: 57.386786786786786%, Memory: 88.43663663663663%, Response: {
+  "id": "chatcmpl-ndogrxjmxs44i8hzo9eou",
+  "object": "chat.completion",
+  "created": 1714077811,
+  "model": "C:\\Users\\ernes\\.cache\\lm-studio\\models\\TheBloke\\vicuna-13B-v1.5-16K-GGUF\\vicuna-13b-v1.5-16k.Q4_0.gguf",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "The passage describes the quarrel between Agamemnon and Achilles and how it led to the withdrawal of Achilles from the war and the sending of his mother Thetis to ask Jove to help the Trojans. It also describes a scene on Olympus where Jove and Juno are"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 63,
+    "total_tokens": 127
+  }
+}
+2024-04-25 14:44:06,340 Stress Test Results very large-small - Success Rate: 100.0%, Average Response Time: 319.81s, CPU Usage: 55.435102958690344%, Memory Usage: 90.87227996031669%
+
+
+
+2024-04-25 14:44:36,229 Test very small-small ran with response time 29.83s, CPU: 57.97951388888888%, Memory: 87.6%, Response: {
+  "id": "chatcmpl-hevvhivhda8zd0xqce9uj",
+  "object": "chat.completion",
+  "created": 1714077846,
+  "model": "C:\\Users\\ernes\\.cache\\lm-studio\\models\\TheBloke\\vicuna-13B-v1.5-16K-GGUF\\vicuna-13b-v1.5-16k.Q4_0.gguf",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "In the context of this project, a `Token` represents a unit of information that is important to keep secret. In this case, we are concerned with protecting information related to the cryptographic keys used in our blockchain-based voting system. The tokenization process involves breaking down complex concepts and ideas into smaller"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 63,
+    "completion_tokens": 63,
+    "total_tokens": 126
+  }
+}
+2024-04-25 14:45:01,401 Test very small-small ran with response time 25.10s, CPU: 51.07119341563786%, Memory: 87.54526748971193%, Response: {
+  "id": "chatcmpl-8zy2m9p203s7t046z9hqwa",
+  "object": "chat.completion",
+  "created": 1714077876,
+  "model": "C:\\Users\\ernes\\.cache\\lm-studio\\models\\TheBloke\\vicuna-13B-v1.5-16K-GGUF\\vicuna-13b-v1.5-16k.Q4_0.gguf",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "123456789012345678901234567890123456789012345678901234567890\n\n"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 62,
+    "total_tokens": 126
+  }
+}
+2024-04-25 14:45:26,772 Test very small-small ran with response time 25.29s, CPU: 51.78244897959184%, Memory: 87.26489795918368%, Response: {
+  "id": "chatcmpl-4jifn3k08y5s1l4pdkyy9i",
+  "object": "chat.completion",
+  "created": 1714077901,
+  "model": "C:\\Users\\ernes\\.cache\\lm-studio\\models\\TheBloke\\vicuna-13B-v1.5-16K-GGUF\\vicuna-13b-v1.5-16k.Q4_0.gguf",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "\nQ: What is the smallest positive integer that cannot be expressed as a sum of three distinct non-zero squares?\nA: 121 is the smallest such number.\n\n---\n\nQ: What's the largest prime number that is less than or equal to 2^32"
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 64,
+    "completion_tokens": 63,
+    "total_tokens": 127
+  }
+}
+2024-04-25 14:45:26,772 Stress Test Results very small-small - Success Rate: 100.0%, Average Response Time: 26.74s, CPU Usage: 53.611052094706196%, Memory Usage: 87.47005514963188%
+
+
+
+2024-04-25 18:46:00,783 Queue Test with 10 requests: Average Response Time = 27.04s, Success Rate = 100.00%
+2024-04-25 18:56:47,398 Queue Test with 10 requests: Average Response Time = 41.05s,  CPU: 60.16803166810128%, Memory: 86.00794256293622%,
+2024-04-25 19:04:47,771 Queue Test with 50 requests: Average Response Time = 270.69s,  CPU: 65.70261253260604%, Memory: 85.2188672195453%,
+2024-04-25 19:21:52,547 Queue Test with 100 requests: Average Response Time = 547.76s,  CPU: 68.90358464032205%, Memory: 84.87864814903695%,
+2024-04-25 19:50:40,323 Queue Test with 200 requests: Average Response Time = 872.93s,  CPU: 68.44984743851737%, Memory: 83.66773602024823%,
